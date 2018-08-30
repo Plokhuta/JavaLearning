@@ -1,4 +1,6 @@
-public class Exceptions {
+package ExceptionT;
+
+public class ExceptionsTest {
     public static void main(String... args){
         String[] str = new String[2];
         String[] str1 = new String[2];
