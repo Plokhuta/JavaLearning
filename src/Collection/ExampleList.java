@@ -1,6 +1,7 @@
 package Collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ExampleList {
@@ -23,6 +24,12 @@ public class ExampleList {
         }
 
         System.out.println(listStrings.get(0));
+
+        Iterator<String> iterator = listStrings.iterator();
+        System.out.println("\nIterator: ");
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
 
     }
 
