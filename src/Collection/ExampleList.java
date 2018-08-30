@@ -25,6 +25,11 @@ public class ExampleList {
 
         System.out.println(listStrings.get(0));
 
+        listStrings.add("two");
+        listStrings.add("two");
+        listStrings.add("two");
+        listStrings.add("two");
+
         Iterator<String> iterator = listStrings.iterator();
         System.out.println("\nIterator: ");
         while (iterator.hasNext()){
