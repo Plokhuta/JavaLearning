@@ -24,7 +24,7 @@ class Main {
 
         DriverBus driverBus = new DriverBus();
         System.out.println(driverBus.getSpeed());
-        //driverBus.setCategory("F");
+        driverBus.setCategory("F");
         driverBus.go();
 
     }
