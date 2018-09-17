@@ -50,7 +50,7 @@ class HDD{
     CDRom cdRom = new CDRom();
 
     void saveData(CDRom cdRom){
-        if(cdRom.hassData() != false){
+        if(cdRom.hassData()){
             System.out.println("Данні збережені");
         }else {
             System.out.println("Вставте диск");
