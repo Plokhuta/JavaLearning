@@ -2,18 +2,16 @@ package ExceptionT;
 
 
 import ExceptionT.MyException;
+import java.util.Scanner;
 
 public class ForcedException {
-    public static void main(String... args) {
-        throw new NullPointerException();
+    public static void main(String... args) throws MyException {
+        Scanner scanner = new Scanner(System.in);
+        int sc = Integer.parseInt(scanner.nextLine());
 
-
-//        try {
-//            throw new MyException();
-//        } catch (Exception.MyException e) {
-//            e.printStackTrace();
-//        }
-
+        if(sc !=0){
+            throw new MyException();
+        }
 
     }
 
